@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.cabecalho {
+    background-color: #008080;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-titulo {
+    color: #ffffff;
+    font-size: 42px;
+}
+
+.cabecalho-lista {
+    color: white;
+    font-size: 18px;
+}
+
+.cabecalho-logotipo {
+    width: 100px;
+}
+
+.cabecalho-lista-item1,
+.cabecalho-lista-item2 {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.projeto {
+    background-image: linear-gradient(#008080, #20b2aa);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.projeto-titulo {
+    font-size: 32px;
+    padding: 16px;
+}
+
+.projeto-texto1,
+.projeto-texto2 {
+    font-size: 20px;
+    padding: 16px;
+}
+
+.projeto-div {
+    width: 50%;
+    padding: 20px;
+}
+
+.projeto-imagem {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.beneficios {
+    background-color: #2e8b57;
+    color: white;
+    padding: 40px 0;
+}
+
+.beneficios-titulo {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.beneficios-div-todos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    padding: 0 20px;
+}
+
+.beneficios-div {
+    background-color: #3cb371;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.beneficios-subtitulo {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.beneficios-texto {
+    font-size: 18px;
+}
+
+.rodape {
+    background-color: #008080;
+    color: #f4f4f4;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    align-items: center;
+}
+
+.rodape-imagem {
+    width: 60px;
+}
+
+.rodape-titulo {
+    font-size: 20px;
+}
+
+.rodape-icone {
+    width: 30px;
+}
